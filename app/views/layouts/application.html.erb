@@ -1,14 +1,35 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>SiteTracertag</title>
-    <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta name="keywords" content="rastreador portátil, rastreador veicular, tracker, tracertag, rastreador para malas, baggage tracker, case tracker, cargo tracker, cargo tracer, rastreador de cargas, rastreador pessoal, isca eletrônica, rastreador veicular, luggage tracker, aeronautical tracker, rastreador aeronautico, cargo, atlas, eagle, pocket, one, vírus de carga, trakdot, trackdot, cargo track, onixsat, sascar, omnilink, garmin GTU-10, maxtrack, etiqueta de bagagem, Laipac, ituran, positron, Rastreador pessoal, Rastreador automotivo, Rastreador para automóveis, Rastreador sem mensalidade, Rastreador para moto, Rastreador para motos, Rastreador com RFID, Rastreador bloqueador, Segurança Pessoal, Segurança Condomínios, ZATIX, ISCAS DESCARTÁVEIS, ISCAS RETORNÁVEIS, isca de carga, sascar, cargotracck, onixsat, jammer, jamming, pronta resposta, monitoramento de cargas, monitoramento de veículos, detector de jammer, j-alert, dyplex, cesvi, gristec, anfarlog, sindicarga, cerca eletronica, michelan, segtronica, engeseg, federal st, segsing,load baits ,load baiting." />
+		<meta name="author" content="" />
+		<meta name="description" content="Os rastreadores TRACER TAG são feitos para você monitorar diversas situações – desde a rota feita por um pedestre até a trajetória de uma carga em um caminhão. Os dispositivos podem, inclusive, acompanhar bagagens em um avião, pois ao contrário dos outros rastreadores do mercado, foram projetados visando o transporte aéreo. Versátil, portátil e resistente, o TRACER TAG está pronto para acompanhar e monitorar o que você desejar." />
+
+		<title>Tracer Tag</title>
+	  <%= csrf_meta_tags %>
+	  <link rel="shortcut icon" href="imgs/favicon.ico"> 
+	  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+	  
+	 </head>
 
   <body>
-    <%= yield %>
-  </body>
+    
+		<%= render 'elements/nav' %>
+
+		<%= render 'elements/header' %>
+
+		<%= render 'elements/produto' %>
+
+		<%= render 'elements/newsletter' %>
+
+		<%= yield %>
+
+		<%= render 'elements/footer' %>
+
+		<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+	</body>
 </html>
