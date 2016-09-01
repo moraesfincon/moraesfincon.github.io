@@ -1,0 +1,5 @@
+pt-BR:
+  activerecord:
+    models:
+      admin_user: "Usuários"
+      comment: "Comentários"
