@@ -23,10 +23,16 @@ end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-# active admin
+# Cctive admin
 gem 'activeadmin', github: 'activeadmin'
 gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 gem 'active_skin'
 
+# Auth
 gem 'devise'
+
+# Gems to project
+gem 'carrierwave', '>= 1.0.0.beta', '< 2.0'
+gem "mini_magick"
+gem "fog-aws"
 
