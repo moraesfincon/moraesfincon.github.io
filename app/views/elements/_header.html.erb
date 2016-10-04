@@ -1,10 +1,8 @@
 <header>
+  <!-- Slide -->
 	<ul class="slider">
-		<li> <%= image_tag "slide_00.jpg" %></li>
-		<li> <%= image_tag "slide_01.jpg" %></li>
-		<li> <%= image_tag "slide_02.jpg" %></li>
-		<li> <%= image_tag "slide_03.jpg" %></li>
-		<li> <%= image_tag "slide_04.jpg" %></li>
-		<li> <%= image_tag "slide_05.jpg" %></li>
+		<% @banners.each do |banner| %>
+			<li> <%= image_tag banner.image %></li>
+		<% end %>
   </ul>
 </header>
