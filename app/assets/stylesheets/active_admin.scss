@@ -17,10 +17,15 @@
 //   .status_tag { background: #6090DB; }
 
 
-$skinActiveColor: #EB3330; 
+$skinActiveColor: #EB3330;
 $skinHeaderBck: #2F2535;
 $panelHeaderBck: #C62835;
 
 $skinLogo: url("logo_admin.png") no-repeat 0 0;
 
 @import "active_skin";
+
+.cke_chrome {
+  width: 79.5% !important;
+  overflow: hidden;
+}
