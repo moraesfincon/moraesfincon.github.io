@@ -14,6 +14,19 @@ ActiveAdmin.register Product do
     actions
   end
 
+	form do |f|
+  f.inputs do
+    f.input :name
+    f.input :image
+    f.input :descrption, :as => :ckeditor
+		f.input :main
+		f.input :public
+
+  end
+  f.actions
+end
+
+
   filter :name
   filter :public
 end
