@@ -4,7 +4,7 @@ class CreateBanners < ActiveRecord::Migration[5.0]
       t.string :title
       t.text :description
       t.string :image
-      t.boolean :public
+      t.boolean :public, default: false
 
       t.timestamps
     end
