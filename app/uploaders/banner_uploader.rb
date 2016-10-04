@@ -1,5 +1,5 @@
 class BannerUploader < CarrierWave::Uploader::Base
-
+  include CarrierWave::MiniMagick
   # Include RMagick or MiniMagick support:
   # include CarrierWave::RMagick
   # include CarrierWave::MiniMagick
@@ -12,6 +12,12 @@ class BannerUploader < CarrierWave::Uploader::Base
   # This is a sensible default for uploaders that are meant to be mounted:
   def store_dir
     "uploads/#{model.class.to_s.underscore}/#{mounted_as}/#{model.id}"
+  end
+
+  process resize_to_fit: [1401, 460]
+
+  version :thumb do
+    process resize_to_fill: [180,40]
   end
 
   # Provide a default URL as a default if there hasn't been a file uploaded:
