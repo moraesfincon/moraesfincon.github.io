@@ -12,6 +12,7 @@ gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
   gem 'byebug', platform: :mri
+  gem 'pry'
 end
 
 group :development do
@@ -35,4 +36,3 @@ gem 'devise'
 gem 'carrierwave', '>= 1.0.0.beta', '< 2.0'
 gem "mini_magick"
 gem "fog-aws"
-
