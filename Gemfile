@@ -37,3 +37,5 @@ gem 'carrierwave', '>= 1.0.0.beta', '< 2.0'
 gem "mini_magick"
 gem "fog-aws"
 gem 'ckeditor'
+gem 'simple_form'
+gem 'validates_email_format_of'
