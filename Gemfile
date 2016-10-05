@@ -39,3 +39,4 @@ gem "fog-aws"
 gem 'ckeditor'
 gem 'simple_form'
 gem 'validates_email_format_of'
+gem 'annotate'
