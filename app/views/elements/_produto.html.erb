@@ -4,7 +4,7 @@
 			<%= image_tag main.image, width: '210', height: '420' %>
 			<h1><%= main.name %></h1>
 			<%= raw main.descrption %>
-			<a href="page-modelo.html" class="btn">Veja nossos modelos</a>
+			<%= link_to 'Veja nossos modelos', modelos_path, class: 'btn' %>
 		<% end %>
 	</div>
 </section>

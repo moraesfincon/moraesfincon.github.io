@@ -1,3 +1,9 @@
+<%= render 'elements/header' %>
+
+<%= render 'elements/produto' %>
+
+<%= render 'elements/newsletter' %>
+
 <section class="modelos">
 
 	<div class="container">
@@ -7,10 +13,10 @@
 		<ul class="modelos_lista">
 			<% @products.each do |product| %>
 				<li class="grid-1-3">
-					<a href="page-modelo.html #cargo">
+					<%= link_to  modelos_path do %>
 						<%= image_tag product.image %>
 						<h3><%= product.name %></h3>
-					</a>		
+					<% end %>
 				</li>
 			<% end %>
 		</ul>
