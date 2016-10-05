@@ -1,0 +1,11 @@
+<%= simple_form_for @newsletter, url: { action: 'create', controller: 'newsletters'}, html: {class: 'container'}, remote: true    do |f|%>
+
+  <h3>Assine nossa newsletter</h3>
+
+  <p>E receba nossas recentes notícias e descontos exclusivos.</p>
+
+  <%= f.input :email, placeholder: 'Digite seu email', wrapper: false, label: false %>
+
+  <%= f.submit 'Asssinar', class:'btn' %>
+
+<% end %>
