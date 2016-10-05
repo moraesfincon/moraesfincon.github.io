@@ -17,7 +17,8 @@
 	transition: all 2s ease;
 }
 
-#cargo {
+/* CSS selector for first element with class */
+.modelo_item:nth-of-type(1) {
 	margin-top: 100px;
 }
 
