@@ -1,16 +1,16 @@
 <nav>
-		<div class="container">
-		<div id="logo">
-			<%= link_to image_tag("logo.png"), root_path %>
-		</div>
-		<ol>
-			<li><%= link_to 'Início', root_path %></li>
-			<li><a href="page-modelo.html">Modelos</a></li>
-			<li><a href="page-solucoes.html">Soluções</a></li>
-			<li><a href="page-login.html">Área do Cliente</a></li>
-			<li><a href="page-b2b.html">B2B</a></li>
-			<li><a href="pdfs/jalert.pdf">Detector de Jammer</a></li>
-			<li><a href="videos/video_tracertag.mp4">Vídeo</a></li>
-		</ol>
-		</div>
-	</nav>
+	<div class="container">
+	<div id="logo">
+		<%= link_to image_tag("logo.png"), root_path %>
+	</div>
+	<ol>
+		<li><%= link_to 'Início', root_path %></li>
+		<li><%= link_to 'Modelos', modelos_path %></li>
+		<li><a href="page-solucoes.html">Soluções</a></li>
+		<li><a href="page-login.html">Área do Cliente</a></li>
+		<li><a href="page-b2b.html">B2B</a></li>
+		<li><a href="pdfs/jalert.pdf">Detector de Jammer</a></li>
+		<li><a href="videos/video_tracertag.mp4">Vídeo</a></li>
+	</ol>
+	</div>
+</nav>
