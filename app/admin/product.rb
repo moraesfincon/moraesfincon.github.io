@@ -15,16 +15,15 @@ ActiveAdmin.register Product do
   end
 
 	form do |f|
-  f.inputs do
-    f.input :name
-    f.input :image
-    f.input :descrption, :as => :ckeditor
-		f.input :main
-		f.input :public
-
+    f.inputs do
+      f.input :name
+      f.input :image
+      f.input :descrption, :as => :ckeditor
+  		f.input :main
+  		f.input :public
+    end
+    f.actions
   end
-  f.actions
-end
 
 
   filter :name
