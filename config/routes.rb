@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   resources :newsletters, only: [:new, :create]
 
   get 'modelos', to: 'products#index'
+  get 'solucoes', to: 'soluctions#index'
 
   get 'page/index'
   root 'page#index'
