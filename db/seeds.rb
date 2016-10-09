@@ -5,8 +5,15 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
 AdminUser.create(
-  email: 'diego.collares@gmail.com',
+  email: 'admin@tracertag.com',
+  password: 'mudarsenha123456*',
+  password_confirmation: 'mudarsenha123456*'
+)
+
+AdminUser.create(
+  email: 'diego.@startamus.com.br',
   password: 'kika1984*',
   password_confirmation: 'kika1984*'
 )
