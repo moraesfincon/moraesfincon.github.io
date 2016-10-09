@@ -1,14 +1,14 @@
 <%= simple_form_for @contact, html: { class: 'container'}, remote: true do |f| %>
-    <div class="form">
-        <h1>FORMULÁRIO DE CONTATO</h1>
-        
-          <%= f.input :name,  wrapper: false, placeholder: 'Seu nome', label: 'Nome' %>
-          <%= f.input :email,  wrapper: false, placeholder: 'meu@exemplo.com', label: 'Email' %>
-          <%= f.input :phone,  wrapper: false, placeholder: '(00) 00000-0000', label: 'Telefone' %>
-          <%= f.input :subject,  wrapper: false, placeholder: 'Assunto', label: 'Assunto' %>
-          <%= f.input :message,  wrapper: false, placeholder: 'Em que podemos ajudar?', label: 'Mensagem' %>
+  <div class="form">
+    <h1>FORMULÁRIO DE CONTATO</h1>
 
-          <%= f.submit 'Enviar', onclick: "submitForm()" %>
+    <%= f.input :name,  wrapper: false, placeholder: 'Seu nome', label: 'Nome' %>
+    <%= f.input :occupation,  wrapper: false, label: 'Ocupação' %>
+    <%= f.input :email,  wrapper: false, placeholder: 'meu@exemplo.com', label: 'Email' %>
+    <%= f.input :phone,  wrapper: false, placeholder: '(00) 00000-0000', label: 'Telefone' %>
+    <%= f.input :subject,  wrapper: false, placeholder: 'Assunto', label: 'Assunto' %>
+    <%= f.input :message,  wrapper: false, placeholder: 'Em que podemos ajudar?', label: 'Mensagem' %>
 
-      </div>
+    <%= f.submit 'Enviar', onclick: "submitForm()" %>
+  </div>
 <% end %>
