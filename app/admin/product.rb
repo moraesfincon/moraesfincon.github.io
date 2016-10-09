@@ -2,13 +2,13 @@ ActiveAdmin.register Product do
 
   menu false
   
-	permit_params :name, :image, :descrption, :main, :public
+  permit_params :name, :image, :descrption, :main, :public
 
-	index do
+  index do
     selectable_column
     id_column
     column "Image" do |product|
-    	image_tag(product.image.url(:thumb))
+      image_tag(product.image.url(:thumb))
     end
     column :name
     column :main
@@ -17,13 +17,13 @@ ActiveAdmin.register Product do
     actions
   end
 
-	form do |f|
+  form do |f|
     f.inputs do
       f.input :name
       f.input :image
       f.input :descrption, :as => :ckeditor
-  		f.input :main
-  		f.input :public
+      f.input :main
+      f.input :public
     end
     f.actions
   end
