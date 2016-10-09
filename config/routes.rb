@@ -6,6 +6,7 @@ Rails.application.routes.draw do
 
   ActiveAdmin.routes(self)
 
+  resources :contacts, only: [:new, :create]
   resources :newsletters, only: [:new, :create]
 
   get 'modelos', to: 'products#index'

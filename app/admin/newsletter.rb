@@ -1,4 +1,5 @@
 ActiveAdmin.register Newsletter do
+  menu false
 	permit_params :email
 
 	index do

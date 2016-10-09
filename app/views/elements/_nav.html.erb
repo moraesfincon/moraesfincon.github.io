@@ -4,11 +4,14 @@
 		<%= link_to image_tag("logo.png"), root_path %>
 	</div>
 	<ol>
+	
 		<li><%= link_to 'Início', root_path %></li>
 		<li><%= link_to 'Modelos', modelos_path %></li>
-		<li><a href="page-solucoes.html">Soluções</a></li>
-		<li><a href="page-login.html">Área do Cliente</a></li>
-		<li><a href="page-b2b.html">B2B</a></li>
+		<li><%= link_to 'Soluções', solucoes_path %></li>
+		<li><a href="http://201.20.37.40/login/index.php">Área do Cliente</a></li>
+		
+		<li><%= link_to 'B2B', new_contact_path %></li>
+		
 		<li><a href="pdfs/jalert.pdf">Detector de Jammer</a></li>
 		<li><a href="videos/video_tracertag.mp4">Vídeo</a></li>
 	</ol>

@@ -17,6 +17,10 @@
 	  	<%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 		<% elsif current_page?(modelos_path) %>
 			<%= stylesheet_link_tag 'products', media: 'all', 'data-turbolinks-track': 'reload' %>
+		<% elsif current_page?(solucoes_path) %>
+			<%= stylesheet_link_tag 'soluctions', media: 'all', 'data-turbolinks-track': 'reload' %>
+		<% elsif current_page?(new_contact_path) %>
+			<%= stylesheet_link_tag 'contacts', media: 'all', 'data-turbolinks-track': 'reload' %>
 		<% end %>
 
 	 </head>

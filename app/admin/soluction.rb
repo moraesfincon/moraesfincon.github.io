@@ -1,4 +1,7 @@
 ActiveAdmin.register Soluction do
+
+  menu false
+
   permit_params :name, :resume, :image, :order
 
   index do

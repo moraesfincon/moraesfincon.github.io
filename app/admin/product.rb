@@ -1,4 +1,7 @@
 ActiveAdmin.register Product do
+
+  menu false
+  
 	permit_params :name, :image, :descrption, :main, :public
 
 	index do

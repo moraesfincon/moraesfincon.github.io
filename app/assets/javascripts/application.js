@@ -15,3 +15,4 @@
 //= require turbolinks
 //= require nav
 //= require slider
+//= require app

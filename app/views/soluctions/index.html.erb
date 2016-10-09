@@ -1,0 +1,9 @@
+<section class="container soluction_item">
+  <% @soluctions.each do |soluction| %>
+    <div class="grid-1-3 modelo_item">
+      <%= image_tag soluction.image %>
+      <h3><%= soluction.name %></h3>
+      <p> <%= raw soluction.resume %></p>
+    </div>  
+  <% end %>
+</section>

@@ -1,4 +1,6 @@
 ActiveAdmin.register Banner do
+
+  menu false
 	permit_params :title, :image, :descrption, :public
 
 	index do
