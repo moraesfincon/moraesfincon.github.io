@@ -14,5 +14,13 @@
 #
 
 class Contact < ApplicationRecord
+  extend Enumerize
+
   validates :name, :email, :subject, :message, presence: true
+
+  enumerize :occupation, in: {
+    "Transportador": 1, "Embarcador": 2,
+    "Frotista": 2, "Empresa de monitoramento": 3, "Outro": 4
+  }
+
 end
