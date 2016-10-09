@@ -32,7 +32,7 @@ label {
 	box-sizing: border-box;
 	font-size: 1.4em;
 	border: 1px solid #eee;
-} 
+}
 
 .form input:focus,
 .form textarea:focus,
@@ -40,7 +40,7 @@ label {
 .label:active + textarea {
 	outline: none;
 	border: 1px solid tomato;
-} 
+}
 
 input[type="submit"]{
 	border: 3px solid #ff0000;
@@ -74,6 +74,19 @@ h1 {
     text-transform: uppercase;
     margin-left: -2px;
     margin-bottom: 15px;
+}
+
+/* Alert success */
+
+.alert-success {
+	background: #2ecc71;
+	margin-bottom: 10px;
+
+}
+
+.alert-success p{
+	color:  #fff;
+	padding: 10px;
 }
 
 @media screen and (max-width: 980px) {
@@ -134,7 +147,7 @@ h1 {
 		font-size: 2.6em;
 	}
 
-} 
+}
 
 @media screen and (max-width: 360px) {
 
@@ -145,13 +158,13 @@ h1 {
 	.form input, .form textarea {
 		padding: 7%;
 	}
-	
+
 	h1 {
 		font-size: 2.3em;
 	}
 
 
-} 
+}
 
 @media screen and (max-width: 320px) {
 
@@ -163,4 +176,4 @@ h1 {
 		font-size: 2.0em;
 	}
 
-} 
+}
