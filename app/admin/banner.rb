@@ -1,7 +1,7 @@
 ActiveAdmin.register Banner do
 
   menu false
-	permit_params :title, :image, :descrption, :public
+	permit_params :title, :image, :description, :public
 
 	index do
     selectable_column
