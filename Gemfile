@@ -35,10 +35,12 @@ gem 'devise'
 # Gems to project
 gem 'carrierwave', '>= 1.0.0.beta', '< 2.0'
 gem "mini_magick"
-gem "fog-aws"
 gem 'ckeditor'
 gem 'simple_form'
 gem 'validates_email_format_of'
 gem 'annotate'
 gem 'rubocop', require: false
 gem 'enumerize'
+gem 'figaro'
+gem 'aws-sdk'
+gem 'fog'
