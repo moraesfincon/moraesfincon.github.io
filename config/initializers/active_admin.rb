@@ -227,6 +227,7 @@ ActiveAdmin.setup do |config|
           page.add label: "Modelos", url: proc { admin_products_path }
           page.add label: "Soluções", url: proc { admin_soluctions_path }
           page.add label: "Newsletters", url: proc { admin_newsletters_path }
+          page.add label: "Notícias", url: proc { admin_articles_path }
         end
 
         menu.add label: "Gerênciar contatos" do |contact|
