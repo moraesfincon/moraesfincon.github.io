@@ -3,7 +3,7 @@
 @font-face {
     font-family: Raleway;
     src: font-url('Raleway-Medium.ttf');
-} 
+}
 
 @font-face {
     font-family: OpenSans;
@@ -265,7 +265,7 @@ nav ol a:hover {
 
 .produto img {
     margin-top: 55px;
-    float: left; 
+    float: left;
 }
 
 .produto p {
@@ -330,7 +330,7 @@ nav ol a:hover {
 .label:active + textarea {
     outline: none;
     border: 1px solid tomato;
-} 
+}
 
 /* Section Modelos */
 
@@ -349,7 +349,7 @@ nav ol a:hover {
 .modelos_lista li:hover {
     cursor: pointer;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    animation: scale .9s ease-in alternate infinite;
+    // animation: scale .9s ease-in alternate infinite;
     transition: all 1s ease;
 }
 
@@ -651,7 +651,7 @@ nav ol a:hover {
         border-radius: 5px;
     }
 
-} 
+}
 
 @media screen and (max-width: 360px) {
 
@@ -726,7 +726,7 @@ nav ol a:hover {
         font-size: 1em;
         line-height: 6em;
     }
-    
+
 }
 
 @media screen and (max-width: 250px) {
@@ -746,8 +746,8 @@ nav ol a:hover {
 
 .clearfix:before,
 .clearfix:after {
-    content: " "; 
-    display: table; 
+    content: " ";
+    display: table;
 }
 
 .clearfix:after {
