@@ -2,7 +2,7 @@ ActiveAdmin.register Product do
 
   menu false
 
-  permit_params :name, :image, :descrption, :main, :public, :order_position
+  permit_params :name, :image, :descrption, :main, :public, :order_position, :launch
 
   config.sort_order = 'order_position_asc'
 
@@ -14,6 +14,7 @@ ActiveAdmin.register Product do
     end
     column :order_position
     column :name
+    column :launch
     column :main
     column :public
     column :created_at
@@ -26,6 +27,7 @@ ActiveAdmin.register Product do
       f.input :image
       f.input :descrption, :as => :ckeditor
       f.input :order_position
+      f.input :launch
       f.input :main
       f.input :public
     end
