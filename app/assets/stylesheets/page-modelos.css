@@ -13,7 +13,6 @@
 
 .modelo_item:hover {
 	cursor: pointer;
-	animation: efeito-img 4s ease-in alternate infinite;
 	transition: all 2s ease;
 }
 
