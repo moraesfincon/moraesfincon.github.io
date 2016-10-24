@@ -11,13 +11,13 @@
 		<h2>Lançamentos</h2>
 
 		<ul class="modelos_lista">
-			<% cache @products do %>
-				<% @products_launch.each do |product| %>
+			<% cache @products_launch do %>
+				<% @products_launch.each do |product_launch| %>
 					<% cache product do %>
 						<li class="grid-1-3">
 							<%= link_to  modelos_path do %>
-								<%= image_tag product.image %>
-								<h3><%= product.name %></h3>
+								<%= image_tag product_launch.image %>
+								<h3><%= product_launch.name %></h3>
 							<% end %>
 						</li>
 					<% end %>
