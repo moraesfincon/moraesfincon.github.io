@@ -11,6 +11,7 @@
 #  created_at     :datetime         not null
 #  updated_at     :datetime         not null
 #  order_position :integer
+#  launch         :boolean          default(FALSE)
 #
 
 class Product < ApplicationRecord
