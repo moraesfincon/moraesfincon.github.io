@@ -1,14 +1,13 @@
-ActiveAdmin.register Article do
+ActiveAdmin.register Notice do
 
-  menu false
+	menu false
 
-  permit_params :title, :description, :public
+  permit_params :title, :content, :public, :image
 
   index do
     selectable_column
     id_column
     column :title
-    column :public
     column :created_at
     actions
   end
@@ -16,7 +15,8 @@ ActiveAdmin.register Article do
   form do |f|
     f.inputs do
       f.input :title
-      f.input :description, :as => :ckeditor
+      f.input :image
+      f.input :content, as: :ckeditor
       f.input :public
     end
     f.actions
@@ -25,4 +25,5 @@ ActiveAdmin.register Article do
 
   filter :title
   filter :created_at
+
 end

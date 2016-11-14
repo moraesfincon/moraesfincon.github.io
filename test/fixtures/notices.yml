@@ -2,10 +2,8 @@
 
 one:
   title: MyString
-  description: MyText
-  public: false
+  content: MyText
 
 two:
   title: MyString
-  description: MyText
-  public: false
+  content: MyText
