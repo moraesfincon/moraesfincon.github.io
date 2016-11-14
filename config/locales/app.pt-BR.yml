@@ -2,4 +2,53 @@ pt-BR:
   activerecord:
     models:
       admin_user: "Usuários"
+      banner: "Banner"
       comment: "Comentários"
+      contact: "Contatos"
+      event: "Eventos"
+      newsletter: "Boletim"
+      notice: "Notícias"
+      product: "Produtos"
+      soluction: "Soluções"
+    attributes:
+      admin_user:
+        email: "Email"
+        encrypted_password: "Senha"
+      banner:
+        title: Título
+        description: "Descrição"
+        image: "Imagem"
+        public: "Público"
+      contact:
+        name: "Nome"
+        occupation: "Ocupação"
+        email: "Email"
+        phone: "Telefone"
+        subject: "Tópico"
+        message: "Mensagem"
+      event:
+        title: "Título"
+        content: "Conteúdo"
+      newsletter:
+        email: "Email"
+      notice:
+        title: "Título"
+        content: "Conteúdo"
+        image: "Imagem"
+        public: "Público"
+      product:
+        name: "Nome"
+        image: "Imagem"
+        descrption: "Descrição"
+        public: "Público"
+        main: "Principal"
+        order_position: "Ordem"
+        launch: "Lançamento"
+      soluction:
+        name: "Nome"
+        resume: "Resumo"
+        image: "Imagem"
+        order: "Ordem"
+
+
+
