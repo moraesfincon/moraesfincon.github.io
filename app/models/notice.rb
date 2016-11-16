@@ -17,4 +17,7 @@ class Notice < ApplicationRecord
 
   validates :title, :content, presence: true
 
+  def to_param
+  	"#{id}-#{title.parameterize}"
+  end
 end
