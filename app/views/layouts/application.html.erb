@@ -21,8 +21,10 @@
 			<%= stylesheet_link_tag 'soluctions', media: 'all', 'data-turbolinks-track': 'reload' %>
 		<% elsif current_page?(new_contact_path) %>
 			<%= stylesheet_link_tag 'contacts', media: 'all', 'data-turbolinks-track': 'reload' %>
-		<% elsif current_page?(articles_path) || current_page?(article_path) %>
-			<%= stylesheet_link_tag 'articles', media: 'all', 'data-turbolinks-track': 'reload' %>
+		<% elsif current_page?(events_path) %>
+			<%= stylesheet_link_tag 'notices', media: 'all', 'data-turbolinks-track': 'reload' %>
+		<% elsif current_page?(notices_path) || current_page?(notice_path) %>
+			<%= stylesheet_link_tag 'notices', media: 'all', 'data-turbolinks-track': 'reload' %>
 		<% end %>
 
 	 </head>

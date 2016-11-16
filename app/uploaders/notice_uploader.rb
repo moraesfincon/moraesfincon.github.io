@@ -1,5 +1,6 @@
-class ArticleUploader < CarrierWave::Uploader::Base
+class NoticeUploader < CarrierWave::Uploader::Base
 
+  include CarrierWave::MiniMagick
   # Include RMagick or MiniMagick support:
   # include CarrierWave::RMagick
   # include CarrierWave::MiniMagick
@@ -45,5 +46,9 @@ class ArticleUploader < CarrierWave::Uploader::Base
   # def filename
   #   "something.jpg" if original_filename
   # end
+  process resize_to_fit: [309, 171]
 
+  def extension_whitelist
+    %w(jpg jpeg png)
+  end
 end

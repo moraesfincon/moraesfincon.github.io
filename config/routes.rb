@@ -1,8 +1,5 @@
 Rails.application.routes.draw do
 
-  get 'articles/index'
-
-  get 'articles/show'
 
   mount Ckeditor::Engine => '/ckeditor'
 
@@ -12,7 +9,8 @@ Rails.application.routes.draw do
 
   resources :contacts, only: [:new, :create]
   resources :newsletters, only: [:new, :create]
-  resources :articles, only: [:index, :show]
+  resources :notices, only: [:index, :show]
+  resources :events, only: [:index]
 
   get 'modelos', to: 'products#index'
   get 'solucoes', to: 'soluctions#index'

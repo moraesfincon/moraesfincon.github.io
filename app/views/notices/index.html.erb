@@ -1,0 +1,10 @@
+<section class="container modelo_item">
+    <h2>Notícias</h2>
+
+    <% @notices.each do |notice| %>
+      <article>
+        <h3><%= notice.title %></h3>
+        <%= link_to 'Leia mais', notice_path(notice), class: 'btn' %>
+      </article>
+    <% end %>
+</section>

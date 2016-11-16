@@ -1,0 +1,10 @@
+
+<section class="container modelo_item">
+    <h2>Eventos</h2>
+    <% @events.each do |event| %>
+      <article>
+        <h3><%= event.title %></h3>
+        <p> <%= raw event.content %></p>
+      </article>
+    <% end %>
+</section>
