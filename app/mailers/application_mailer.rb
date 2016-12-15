@@ -1,4 +1,4 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: 'contato@tracertag.com.br'
+  default from: 'tracertag@tracertag.com'
   layout 'mailer'
 end
