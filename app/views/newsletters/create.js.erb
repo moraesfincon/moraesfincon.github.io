@@ -1,1 +1,9 @@
-$('#newsletter_email').val("");
+// after create newsletter
+
+  <% if notice.present? %>
+    var html = "<p> Email cadastrado com sucesso!</p>";
+    $(html).hide().appendTo(".alert").fadeIn(1000);
+    $( '#new_newsletter' ).each(function(){
+        this.reset();
+    });
+  <% end %>
