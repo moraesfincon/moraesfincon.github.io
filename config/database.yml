@@ -8,15 +8,11 @@ default: &default
 development:
   <<: *default
   database: site-tracertag_development
-  username: postgres
-  password: postgres
   host: localhost
 
 test:
   <<: *default
   database: site-tracertag_test
-  username: postgres
-  password: postgres
   host: localhost
 
 production:
