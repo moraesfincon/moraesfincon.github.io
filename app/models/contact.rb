@@ -26,7 +26,8 @@ class Contact < ApplicationRecord
   }
 
   def notify_email
-    ContactMailer.notify_contact(email).deliver
+    ContactMailer.notify_contact(email, name, phone, subject, message, created_at).deliver
+    ContactMailer.notify_admin(email, name, phone, subject, message, created_at).deliver
   end
 
 end
