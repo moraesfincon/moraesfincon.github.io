@@ -1,1 +1,9 @@
-$("#alert").append("<p>Mensagem enviada com sucesso!</p>");
+// after create contact
+
+  <% if notice.present? %>
+    var html = "<p> Mensagem enviada com sucesso!</p>";
+    $(html).hide().appendTo(".alert").fadeIn(1000);
+    $( '#new_contact' ).each(function(){
+        this.reset();
+    });
+  <% end %>
