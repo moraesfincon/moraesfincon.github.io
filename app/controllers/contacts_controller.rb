@@ -9,23 +9,23 @@ class ContactsController < ApplicationController
     if @contact.save
       respond_to do |format|
         format.js {
-          flash[:notice] = "Contato enviado com sucesso"
+          flash[:notice] = "Mensagem enviada com sucesso"
         }
       end
     else
-      render js => "alert('erro ao tentar enviar contato);"
+      render "new"
     end
   end
 
   private
     def params_contact
-      params.require(:contact).permit( 
-        :name, 
-        :email, 
-        :occupation, 
-        :phone, 
-        :subject, 
-        :message  
+      params.require(:contact).permit(
+        :name,
+        :email,
+        :occupation,
+        :phone,
+        :subject,
+        :message
       )
     end
 end

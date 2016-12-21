@@ -9,7 +9,7 @@ class NewslettersController < ApplicationController
         }
       end
     else
-      render js => "alert('erro ao tentar se cadastrar);"
+      puts "Chegou aqui"
     end
   end
 
