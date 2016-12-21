@@ -76,18 +76,7 @@ h1 {
     margin-bottom: 15px;
 }
 
-/* Alert success */
 
-.alert-success {
-	background: #2ecc71;
-	margin-bottom: 10px;
-
-}
-
-.alert-success p{
-	color:  #fff;
-	padding: 10px;
-}
 
 @media screen and (max-width: 980px) {
 
