@@ -13,7 +13,7 @@ AdminUser.create(
 )
 
 AdminUser.create(
-  email: 'diego.collares@gmail.com',
+  email: 'diego@startamus.com.br',
   password: 'kika1984*',
   password_confirmation: 'kika1984*'
 )
