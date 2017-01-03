@@ -16,6 +16,8 @@
 class Contact < ApplicationRecord
   extend Enumerize
 
+  has_paper_trail
+
   before_create :notify_email
 
   validates :name, :email, :subject, :message, presence: true

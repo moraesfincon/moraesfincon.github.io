@@ -12,8 +12,9 @@
 #
 
 class Banner < ApplicationRecord
+  has_paper_trail
   mount_uploader :image, BannerUploader
 
   validates :title, :image, presence: true
-  
+
 end

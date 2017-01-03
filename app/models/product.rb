@@ -15,7 +15,7 @@
 #
 
 class Product < ApplicationRecord
-
+  has_paper_trail
   mount_uploader :image, ImageUploader
 
   validates :image, :name, :descrption, :order_position, presence: true

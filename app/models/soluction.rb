@@ -12,8 +12,9 @@
 #
 
 class Soluction < ApplicationRecord
+  has_paper_trail
   mount_uploader :image, SoluctionUploader
-  
+
   validates :name, :resume, :image, :order, presence: true
 
   validates_uniqueness_of :order

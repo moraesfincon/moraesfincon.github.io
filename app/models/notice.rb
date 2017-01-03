@@ -12,7 +12,7 @@
 #
 
 class Notice < ApplicationRecord
-
+	has_paper_trail
 	mount_uploader :image, NoticeUploader
 
   validates :title, :content, presence: true

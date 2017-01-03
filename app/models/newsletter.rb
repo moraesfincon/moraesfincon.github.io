@@ -9,8 +9,8 @@
 #
 
 class Newsletter < ApplicationRecord
-
+  has_paper_trail
   validates :email, presence: true
   validates :email, email_format: { message: "doesn't look like an email address" }
-  
+
 end
