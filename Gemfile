@@ -50,3 +50,4 @@ gem 'figaro'
 gem 'aws-sdk'
 gem 'fog'
 gem "sentry-raven"
+gem 'meta-tags'
