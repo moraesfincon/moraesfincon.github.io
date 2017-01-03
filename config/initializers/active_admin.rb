@@ -225,7 +225,7 @@ ActiveAdmin.setup do |config|
         menu.add label: "Gerênciar site" do |page|
           page.add label: "Slides", url: proc { admin_banners_path }
           page.add label: "Modelos", url: proc { admin_products_path }
-          page.add label: "Soluções", url: proc { admin_soluctions_path }
+          page.add label: "Aplicações", url: proc { admin_soluctions_path }
           page.add label: "Newsletters", url: proc { admin_newsletters_path }
           page.add label: "Notícias", url: proc { admin_notices_path }
           page.add label: "Eventos", url: proc { admin_events_path }
