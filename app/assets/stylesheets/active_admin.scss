@@ -21,7 +21,7 @@ $skinActiveColor: #EB3330;
 $skinHeaderBck: #2F2535;
 $panelHeaderBck: #C62835;
 
-$skinLogo: url("logo_admin.png") no-repeat 0 0;
+$skinLogo: image-url("logo_admin.png") no-repeat 0 0;
 
 @import "active_skin";
 
