@@ -1,8 +1,12 @@
 <header>
   <!-- Slide -->
 	<ul class="slider">
-		<% @banners.each do |banner| %>
-			<li> <%= image_tag banner.image %></li>
-		<% end %>
+    <% cache @banners do %>
+  		<% @banners.each do |banner| %>
+        <% cache banner do %>
+  			 <li> <%= image_tag banner.image.banner_site %></li>
+        <% end %>
+  		<% end %>
+    <% end %>
   </ul>
 </header>
