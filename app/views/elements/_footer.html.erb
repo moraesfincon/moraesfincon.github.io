@@ -3,7 +3,7 @@
 		<div class="grid-4 footer_recominte">
 			<h3>Recominte</h3>
 			<ul>
-				<li><a href="#">A Empresa</a></li>
+				<li><%= link_to 'A Empresa', page_about_path %></li>
 				<li><%= link_to 'Trabalhe Conosco', new_contact_path %></li>
 				<li><%= link_to 'Seja um Parceiro', new_contact_path %></li>
 				<li><%= link_to 'Fale Conosco', new_contact_path %></li>
@@ -15,7 +15,7 @@
 			<ul>
 				<li><a href="http://201.20.37.40/login/index.php" target="_blank">Área do Cliente</a></li>
 				<li><a href="#">Assistência Técnica</a></li>
-				<li><a href="#">Ficha Técnica do Produto</a></li>
+				<li><%= link_to 'Ficha Técnica do Produto', '/pdfs/TracerTag-FichaTecnica.pdf', target: '_blank' %></li>
 			</ul>
 		</div>
 
