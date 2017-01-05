@@ -39,6 +39,7 @@ gem 'devise'
 
 # Gems to project
 gem 'carrierwave', '>= 1.0.0.beta', '< 2.0'
+gem 'carrierwave-imageoptimizer'
 gem "mini_magick"
 gem 'ckeditor'
 gem 'simple_form'

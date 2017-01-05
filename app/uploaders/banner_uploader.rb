@@ -1,5 +1,6 @@
 class BannerUploader < CarrierWave::Uploader::Base
   include CarrierWave::MiniMagick
+  include CarrierWave::ImageOptimizer
   # Include RMagick or MiniMagick support:
   # include CarrierWave::RMagick
   # include CarrierWave::MiniMagick
@@ -15,6 +16,11 @@ class BannerUploader < CarrierWave::Uploader::Base
   end
 
   process resize_to_fit: [1401, 460]
+
+  version :banner_site do
+    process :optimize
+    process resize_to_fit: [1401, 460]
+  end
 
   version :thumb do
     process resize_to_fill: [180,40]
