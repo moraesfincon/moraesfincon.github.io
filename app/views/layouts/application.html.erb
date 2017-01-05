@@ -13,6 +13,7 @@
 	  <%= csrf_meta_tags %>
 
 		<%= favicon_link_tag 'favicon.ico' %>
+
 		<% if current_page?(root_path) %>
 	  	<%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 		<% elsif current_page?(modelos_path) %>

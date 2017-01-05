@@ -9,7 +9,6 @@ Rails.application.routes.draw do
 
   resources :contacts, only: [:new, :create]
   resources :newsletters, only: [:new, :create]
-  resources :notices, only: [:index, :show]
   resources :events, only: [:index]
 
   get 'modelos', to: 'products#index'

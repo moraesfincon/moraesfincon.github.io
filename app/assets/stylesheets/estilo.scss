@@ -229,8 +229,10 @@ nav ol a:hover {
 
 /* Header */
 
-.header {
-    height: 460px !important;
+header.header {
+    background: red;
+    margin-top: 40px;
+    border: 2px solid blue;
 }
 
 /* Fim Header */
