@@ -227,29 +227,36 @@ nav ol a:hover {
     color: #FFF;
 }s
 
+/* Header */
+
+.header {
+    max-height: 460px;
+}
+
+/* Fim Header */
+
 /* Slider */
 
-ul.slider {
+.slider {
     display: block;
     max-width: 100%;
-    max-height: 460px;
     margin: 40px auto;
     padding: 0;
     list-style: none;
 }
 
-ul.slider li {
+.slider li {
     width: 100%;
     display: none;
     margin: 0;
     padding: 0;
 }
 
-ul.slider li:first-child {
+.slider li:first-child {
     display: block;
 }
 
-ul.slider li img {
+.slider li img {
     width: 100%;
     height: auto;
 }
