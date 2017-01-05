@@ -229,7 +229,7 @@ nav ol a:hover {
 
 /* Slider */
 
-.slider {
+ul.slider {
     display: block;
     max-width: 100%;
     max-height: 460px;
@@ -238,18 +238,18 @@ nav ol a:hover {
     list-style: none;
 }
 
-.slider li {
+ul.slider li {
     width: 100%;
     display: none;
     margin: 0;
     padding: 0;
 }
 
-.slider li:first-child {
+ul.slider li:first-child {
     display: block;
 }
 
-.slider li img {
+ul.slider li img {
     width: 100%;
     height: auto;
 }
