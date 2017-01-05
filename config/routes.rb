@@ -15,6 +15,8 @@ Rails.application.routes.draw do
   get 'solucoes', to: 'soluctions#index'
 
   get 'page/index'
+  get 'page/english'
+
   root 'page#index'
 
 end
