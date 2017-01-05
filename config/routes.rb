@@ -16,6 +16,7 @@ Rails.application.routes.draw do
 
   get 'page/index'
   get 'page/english'
+  get 'page/references'
 
   root 'page#index'
 
