@@ -229,6 +229,7 @@ ActiveAdmin.setup do |config|
           page.add label: "Newsletters", url: proc { admin_newsletters_path }
           page.add label: "Notícias", url: proc { admin_notices_path }
           page.add label: "Eventos", url: proc { admin_events_path }
+          page.add label: "Folhetos", url: proc { admin_flyers_path }
         end
 
         menu.add label: "Gerênciar contatos" do |contact|
