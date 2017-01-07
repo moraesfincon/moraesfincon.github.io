@@ -10,7 +10,12 @@ pt-BR:
       notice: "Notícias"
       product: "Produtos"
       soluction: "Soluções"
+      flyer: Folheto
     attributes:
+      flyer:
+        title: "Título"
+        description: "Descrição"
+        file: "Arquivo"
       admin_user:
         email: "Email"
         encrypted_password: "Senha"
