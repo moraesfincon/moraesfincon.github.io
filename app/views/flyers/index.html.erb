@@ -6,7 +6,7 @@
       <% cache flyer do %>
         <article>
           <h3><%= flyer.title %></h3>
-          <%= link_to "Saiba mais", "#{flyer.file}"%>
+          <%= link_to "Saiba mais", "#{flyer.file}", class: 'btn' %>
         </article>
       <% end %>
     <% end %>
