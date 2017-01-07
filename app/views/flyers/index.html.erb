@@ -1,0 +1,14 @@
+<section class="container modelo_item">
+  <h2>Folhetos</h2>
+
+  <% cache @flyers do %>
+    <% @flyers.each do |flyer| %>
+      <% cache flyer do %>
+        <article>
+          <h3><%= flyer.title %></h3>
+          <%= link_to "Saiba mais", "#{flyer.file}"%>
+        </article>
+      <% end %>
+    <% end %>
+  <% end %>
+</section>
