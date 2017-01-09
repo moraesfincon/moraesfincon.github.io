@@ -21,4 +21,5 @@ class Product < ApplicationRecord
   validates :image, :name, :descrption, :order_position, presence: true
 
 
+
 end
