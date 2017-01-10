@@ -11,7 +11,7 @@ class AssistenceMailer < ApplicationMailer
 		@message = message
     @status = status
 		@created_at = created_at
-    mail(to: email, subject: 'Contato site Tracertag.' )
+    mail(to: email, subject: 'Assistência técnica Tracertag.' )
   end
 
 
