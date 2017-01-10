@@ -1,17 +1,6 @@
 pt-BR:
-  enumerize:
-    assistance:
-      priority:
-        urgent: "Urgente"
-        medium:  "Média"
-        low: "Baixa"
-      status:
-        open: "Aberto"
-        attendance: "Em atendimento"
-        closed: "Fechado"
   activerecord:
     models:
-      assistance: "Assistência"
       admin_user: "Usuários"
       banner: "Banner"
       comment: "Comentários"
@@ -23,14 +12,6 @@ pt-BR:
       soluction: "Soluções"
       flyer: Folheto
     attributes:
-      assistance:
-        name: "Nome"
-        email: "Email"
-        phone: "Telefone"
-        priority: "Prioridade"
-        subject: "Assunto"
-        message: "Mensagem"
-        status: "Status"
       flyer:
         title: "Título"
         description: "Descrição"
@@ -73,3 +54,6 @@ pt-BR:
         resume: "Resumo"
         image: "Imagem"
         order: "Ordem"
+
+
+

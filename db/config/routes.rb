@@ -7,7 +7,6 @@ Rails.application.routes.draw do
 
   ActiveAdmin.routes(self)
 
-  resources :assistances, only: [:new, :create]
   resources :contacts, only: [:new, :create]
   resources :newsletters, only: [:new, :create]
   resources :events, only: [:index]

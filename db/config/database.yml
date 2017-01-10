@@ -1,0 +1,22 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  # For details on connection pooling, see rails configuration guide
+  # http://guides.rubyonrails.org/configuring.html#database-pooling
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: site-tracertag_development
+  host: localhost
+
+test:
+  <<: *default
+  database: site-tracertag_test
+  host: localhost
+
+production:
+  <<: *default
+  database: site-tracertag_production
+  username: site-tracertag
+  password: <%= ENV['SITE-TRACERTAG_DATABASE_PASSWORD'] %>

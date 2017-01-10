@@ -76,6 +76,12 @@ h1 {
     margin-bottom: 15px;
 }
 
+.assistance_contact h2 {
+	font-size: 1.4em;
+	line-height: 1.7em;
+	text-align: left;
+}
+
 
 
 @media screen and (max-width: 980px) {

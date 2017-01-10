@@ -1,0 +1,14 @@
+# S3 Credentials
+AWS_ACCESS_KEY_ID: "AKIAJQGGGCTNSBPEZSAQ"
+AWS_SECRET_ACCESS_KEY: "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"
+
+development:
+  AWS_BUCKET: tracertag
+
+production:
+  AWS_BUCKET: tracertag
+
+  # Transactinal emails
+  # USERNAME: "senhordim"
+  # PASSWORD: "kika1984*"
+

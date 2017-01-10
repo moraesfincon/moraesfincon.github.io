@@ -1,0 +1,30 @@
+<%= simple_form_for @assistance, html: { class: 'container'}, remote: true do |f| %>
+  <%= f.input :status, as: :hidden, input_html: { value: "1" } %>
+  <div class="form">
+
+    <h1>Assistência Técnica</h1>
+
+    <div class="assistance_contact">
+      <h2><tel>+55 12 3298-9090</tel></h2>
+      <h2>suporte@tracertage.com </h2>
+    </div>
+
+
+    <div class="alert alert-success"></div>
+
+    <%= f.input :name,  wrapper: false, placeholder: 'Seu nome' %>
+
+    <%= f.input :email,  wrapper: false, placeholder: 'meu@email.com' %>
+
+    <%= f.input :phone,  wrapper: false, placeholder: '(00) 00000-0000', input_html: {class: 'phone'} %>
+
+    <%= f.input :priority,  wrapper: false %>
+
+    <%= f.input :subject,  wrapper: false, placeholder: 'Assunto' %>
+
+    <%= f.input :message,  wrapper: false,
+    placeholder: 'Em que podemos ajudar?' %>
+
+    <%= f.submit 'Abrir chamado' %>
+  </div>
+<% end %>
