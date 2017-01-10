@@ -1,0 +1,47 @@
+<container>
+  <row class="header">
+    <columns>
+      <spacer size="16"></spacer>
+
+      <h4 class="text-center">
+        Tracertag - Assistência técnica
+      </h4>
+    </columns>
+  </row>
+  <row>
+    <columns>
+      <spacer size="16"></spacer>
+
+      <h4 class="text-center">
+        Olá <%= @name %>, seu chamado foi aberto e já estamos trabalhando para resolver o seu problema.
+      </h4>
+
+      <spacer size="16"></spacer>
+      <h4 class="text-center">
+        Assunto
+      </h4>
+      <p class="text-center"><%= @subject %></p>
+
+      <spacer size="16"></spacer>
+      <h4 class="text-center">
+        Prioridade
+      </h4>
+      <p class="text-center"><%= @priority %></p>
+
+      <h4 class="text-center">
+        Mensagem
+      </h4>
+      <p class="text-center"><%= @message %></p>
+
+      <h5 class="text-center">
+        Seu email: <%= @email %>.
+      </h5>
+      <h5 class="text-center">
+        Seu telefone: <%= @phone %>.
+      </h5>
+
+
+    </columns>
+  </row>
+  <spacer size="16"></spacer>
+</container>

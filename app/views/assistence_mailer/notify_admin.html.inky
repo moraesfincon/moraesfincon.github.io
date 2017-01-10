@@ -1,0 +1,46 @@
+<container>
+  <row class="header">
+    <columns>
+      <spacer size="16"></spacer>
+
+      <h4 class="text-center">
+        Assistência técnica
+      </h4>
+    </columns>
+  </row>
+  <row>
+    <columns>
+      <spacer size="16"></spacer>
+
+      <h4 class="text-center">
+        <%= @name %> abriu um chamado de Suporte.
+      </h4>
+
+      <spacer size="16"></spacer>
+      <h4 class="text-center">
+        Prioridade do chamado
+      </h4>
+      <p class="text-center"><%= @priority %></p>
+      
+      <h4 class="text-center">
+        Assunto
+      </h4>
+      <p class="text-center"><%= @subject %></p>
+
+      <h4 class="text-center">
+        Mensagem
+      </h4>
+      <p class="text-center"><%= @message %></p>
+
+      <h5 class="text-center">
+        Email: <%= @email %>.
+      </h5>
+      <h5 class="text-center">
+        Telefone: <%= @phone %>.
+      </h5>
+
+
+    </columns>
+  </row>
+  <spacer size="16"></spacer>
+</container>
