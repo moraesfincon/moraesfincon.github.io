@@ -8,4 +8,3 @@ spOptions = {
 };
 
 $('.phone').mask(SPMaskBehavior, spOptions);
-

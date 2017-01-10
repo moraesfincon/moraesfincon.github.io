@@ -3,7 +3,7 @@
   <% if notice.present? %>
     var html = "<p> Chamado aberto sucesso!</p>";
     $(html).hide().appendTo(".alert").fadeIn(1000);
-    $( '#assistance' ).each(function(){
+    $( '#new_assistance' ).each(function(){
         this.reset();
     });
   <% end %>
