@@ -22,7 +22,7 @@ class ContactMailer < ApplicationMailer
 		@message = message
 		@created_at = created_at
 		mail( to: 'tracertag@tracertag.com',
-					subject: "#{@name} entrou em contato pelo site Tracertag.")
+					subject: "Fale conosco: #{@name} entrou em contato.")
 	end
 
 end
