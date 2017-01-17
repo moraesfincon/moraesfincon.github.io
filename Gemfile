@@ -39,6 +39,7 @@ gem 'devise'
 
 # Gems to project
 gem 'carrierwave', '>= 1.0.0.beta', '< 2.0'
+
 gem 'carrierwave-imageoptimizer'
 gem "mini_magick"
 gem 'ckeditor'
@@ -49,7 +50,8 @@ gem 'rubocop', require: false
 gem 'enumerize'
 gem 'figaro'
 gem 'aws-sdk'
-gem 'fog'
+gem 'fog', require: 'fog/aws'
 gem "sentry-raven"
 gem 'meta-tags'
 gem 'paper_trail'
+gem "figaro"

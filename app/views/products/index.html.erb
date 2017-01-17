@@ -1,3 +1,19 @@
+<% cache @products_launch do %>
+  <% @products_launch.each do |product| %>
+    <% cache product do %>
+      <section class="container modelo_item">
+        <div class="grid-6">
+          <%= image_tag product.image %>
+        </div>
+        <div class="grid-9">
+          <h2><%= product.name %></h2>
+          <p><%= raw product.descrption %></p>
+        </div>
+      </section>
+    <% end %>
+  <% end %>
+<% end %>
+
 <% cache @products do %>
   <% @products.each do |product| %>
     <% cache product do %>
