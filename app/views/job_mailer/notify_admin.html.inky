@@ -31,7 +31,7 @@
         Email: <%= @email %>.
       </h5>
       <h5 class="text-center">
-         Curriculo: <%= link_to 'visualizar', "#{@curriculum}"  %>.
+         Curriculo: <%= @curriculum %> %>.
       </h5>
 
 
