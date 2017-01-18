@@ -8,10 +8,7 @@ class JobsController < ApplicationController
     @job = Job.new(params_job)
     if @job.save
       respond_to do |format|
-        format.html { render(:text => "not implemented") }
-        format.js {
-          flash[:notice] = "Currículo enviado com sucesso!"
-        }
+        format.js { flash[:notice] = "Currículo enviado com sucesso!" }
       end
     else
       render "new"

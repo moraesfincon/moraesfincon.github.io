@@ -1,4 +1,4 @@
-<%= simple_form_for @job, html: { class: 'container'}, remote: true, authenticity_token: true do |f| %>
+<%= simple_form_for @job, html: { class: 'container'}, remote: true do |f| %>
 
   <div class="form">
 
@@ -18,8 +18,7 @@
     <%= f.input :message,  wrapper: false,
     placeholder: 'Em que podemos ajudar?', label: 'Mensagem' %>
 
-    <%= f.input :curriculum,  wrapper: false,
-    placeholder: 'Em que podemos ajudar?', label: 'Currículo:' %>
+    <%= f.input :curriculum,  wrapper: false, label: 'Currículo:' %>
 
     <%= f.submit 'Enviar' %>
   </div>
