@@ -1,0 +1,9 @@
+// after create contact
+
+  <% if notice.present? %>
+    var html = "<p> Currículo enviado com sucesso!</p>";
+    $(html).hide().appendTo(".alert").fadeIn(1000);
+    $( '#new_job' ).each(function(){
+        this.reset();
+    });
+  <% end %>

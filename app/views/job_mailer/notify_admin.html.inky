@@ -1,0 +1,41 @@
+<container>
+  <row class="header">
+    <columns>
+      <spacer size="16"></spacer>
+
+      <h4 class="text-center">
+        Novo Currículo enviado pelo site Tracertag!
+      </h4>
+    </columns>
+  </row>
+  <row>
+    <columns>
+      <spacer size="16"></spacer>
+
+      <h4 class="text-center">
+        <%= @name %> enviou um currículo.
+      </h4>
+
+      <spacer size="16"></spacer>
+      <h4 class="text-center">
+        Assunto
+      </h4>
+      <p class="text-center"><%= @subject %></p>
+
+      <h4 class="text-center">
+        Área em que deseja trabalhar
+      </h4>
+      <p class="text-center"><%= @workspace %></p>
+
+      <h5 class="text-center">
+        Email: <%= @email %>.
+      </h5>
+      <h5 class="text-center">
+         Curriculo: <%= link_to 'visualizar', "#{@curriculum}"  %>.
+      </h5>
+
+
+    </columns>
+  </row>
+  <spacer size="16"></spacer>
+</container>

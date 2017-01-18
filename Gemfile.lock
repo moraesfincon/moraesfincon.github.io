@@ -88,6 +88,7 @@ GEM
     bourbon (4.2.7)
       sass (~> 3.4)
       thor (~> 0.19)
+    brakeman (3.4.1)
     builder (3.2.2)
     byebug (9.0.5)
     carrierwave (1.0.0.beta)
@@ -338,6 +339,8 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    pry-rails (0.3.4)
+      pry (>= 0.9.10)
     public_suffix (2.0.4)
     puma (3.6.0)
     rack (2.0.1)
@@ -450,6 +453,7 @@ DEPENDENCIES
   activeadmin!
   annotate
   aws-sdk
+  brakeman
   byebug
   carrierwave (>= 1.0.0.beta, < 2.0)
   carrierwave-imageoptimizer
@@ -471,6 +475,7 @@ DEPENDENCIES
   pg (~> 0.18)
   premailer-rails
   pry
+  pry-rails
   puma (~> 3.0)
   rails (~> 5.0.0, >= 5.0.0.1)
   rubocop

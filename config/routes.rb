@@ -9,6 +9,7 @@ Rails.application.routes.draw do
 
   resources :assistances, only: [:new, :create]
   resources :contacts, only: [:new, :create]
+  resources :jobs, only: [:new, :create]
   resources :newsletters, only: [:new, :create]
   resources :events, only: [:index]
   resources :flyers, only: [:index]

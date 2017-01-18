@@ -9,7 +9,7 @@ class ContactsController < ApplicationController
     if @contact.save
       respond_to do |format|
         format.js {
-          flash[:notice] = "Mensagem enviada com sucesso"
+          flash[:notice] = "Currículo enviado com sucesso!"
         }
       end
     else

@@ -17,6 +17,7 @@ gem 'premailer-rails'
 group :development, :test do
   gem 'byebug', platform: :mri
   gem 'pry'
+  gem 'pry-rails'
 end
 
 group :development do
@@ -25,6 +26,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'letter_opener'
+  gem 'brakeman', :require => false
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
@@ -54,3 +56,5 @@ gem "sentry-raven"
 gem 'meta-tags'
 gem 'paper_trail'
 gem "figaro"
+
+

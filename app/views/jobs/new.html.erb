@@ -1,0 +1,26 @@
+<%= simple_form_for @job, html: { class: 'container'}, remote: true, authenticity_token: true do |f| %>
+
+  <div class="form">
+
+    <h1>Trabalhe conosco</h1>
+
+    <div class="alert alert-success"></div>
+
+    <%= f.input :name,  wrapper: false, placeholder: 'Seu nome',
+    label: 'Nome' %>
+
+    <%= f.input :email,  wrapper: false, placeholder: 'meu@exemplo.com',
+    label: 'Email' %>
+
+    <%= f.input :workspace,  wrapper: false, placeholder: 'Área em que deseja trabalhar',
+    label: 'Área em que deseja trabalhar:'%>
+
+    <%= f.input :message,  wrapper: false,
+    placeholder: 'Em que podemos ajudar?', label: 'Mensagem' %>
+
+    <%= f.input :curriculum,  wrapper: false,
+    placeholder: 'Em que podemos ajudar?', label: 'Currículo:' %>
+
+    <%= f.submit 'Enviar' %>
+  </div>
+<% end %>
