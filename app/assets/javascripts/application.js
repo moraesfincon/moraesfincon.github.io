@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require jquery.mask
+//= require jquery.remotipart
 //= require turbolinks
 //= require nav
 //= require slider
