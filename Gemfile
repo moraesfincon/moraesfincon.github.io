@@ -55,7 +55,6 @@ gem 'fog', require: 'fog/aws'
 gem "sentry-raven"
 gem 'meta-tags'
 gem 'paper_trail'
-gem "figaro"
 gem 'remotipart', '~> 1.2'
 
 
