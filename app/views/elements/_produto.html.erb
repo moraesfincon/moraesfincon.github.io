@@ -1,10 +1,19 @@
 <section class="produto">
 	<div class="container">
-		<% @products_main.each do |main| %>
-			<%= image_tag main.image, width: '210', height: '420' %>
-			<h1><%= main.name %></h1>
-			<%= raw main.descrption %>
-			<%= link_to 'Veja nossos modelos', modelos_path, class: 'btn' %>
-		<% end %>
+
+   <div class="grid-8-2">
+    <% @products_main.each do |main| %>
+      <%#= image_tag main.image, width: '210', height: '420' %>
+      <h1><%= main.name %></h1>
+      <%= raw main.descrption %>
+      <%= link_to 'Veja nossos modelos', modelos_path, class: 'btn' %>
+    <% end %>
+   </div>
+   <div class="grid-8-2">
+    <%= image_tag "eventos/exposec2017.jpg", style: 'margin-top: 20px' %>
+   </div>
+
 	</div>
 </section>
+
+
