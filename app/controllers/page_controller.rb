@@ -7,6 +7,7 @@ class PageController < ApplicationController
     @products_launch = Product.where(launch: true).take(3)
   	@products = Product.where(public: true).order(order_position: :asc).take(6)
     @banners  = Banner.where(public: true)
+    @ad  = Ad.where(public: true).sample
   end
 
   private
