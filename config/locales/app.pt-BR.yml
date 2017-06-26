@@ -11,9 +11,10 @@ pt-BR:
         closed: "Fechado"
   activerecord:
     models:
+      ad: "Banner"
       assistance: "Assistência"
       admin_user: "Usuários"
-      banner: "Banner"
+      banner: "Slider"
       comment: "Comentários"
       contact: "Contatos"
       event: "Eventos"
@@ -23,6 +24,10 @@ pt-BR:
       soluction: "Soluções"
       flyer: Folheto
     attributes:
+      ad:
+        tite: "Título"
+        image: "Imagem"
+        public: "Ativar"
       assistance:
         name: "Nome"
         email: "Email"
