@@ -31,5 +31,7 @@ pickle-email-*.html
 .env
 .swp
 
+dbbackup
+
 # Ignore application configuration
 /config/application.yml
