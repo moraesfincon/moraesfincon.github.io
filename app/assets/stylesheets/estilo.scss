@@ -203,28 +203,30 @@ nav {
 }
 
 nav ol {
-    margin-right: 2%;
+    margin-right: 3%;
+
 }
 
 nav ol li {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 1px;
 }
 
 nav ol li a {
     display: inline-block;
-    color: #282c36;
+    color: #FFF;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: .1em;
     font-size: 13px;
     line-height: 20px;
-    padding: 25px 0;
+    padding: 25px 6px;
     transition: all .7s ease;
 }
 
 nav ol a:hover {
-    color: #FFF;
+    
+    background-color: #282c36;
 }
 
 /* Slider */
