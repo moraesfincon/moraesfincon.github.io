@@ -650,6 +650,14 @@ nav ol a:hover {
 
 }
 
+
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) { 
+  .slider li img {
+    margin-top:  0.9375rem;
+  }
+}
+
  @media screen and (max-width: 450px) {
 
     .container {
