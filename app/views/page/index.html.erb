@@ -8,9 +8,7 @@
 
 	<div class="container">
 
-			<h2>Lançamentos</h2>
-
-			<ul class="modelos_lista">
+		<ul class="modelos_lista">
 				<% cache @products_launch do %>
 					<% @products_launch.each do |product_launch| %>
 						<% cache product_launch do %>
