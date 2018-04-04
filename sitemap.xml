@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://www.tracertag.com/</loc>
+  <lastmod>2018-04-04T13:53:03+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.tracertag.com/modelos</loc>
+  <lastmod>2018-04-04T13:53:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tracertag.com/solucoes</loc>
+  <lastmod>2018-04-04T13:53:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tracertag.com/pdfs/jalert.pdf</loc>
+  <lastmod>2018-02-18T16:51:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tracertag.com/contacts/new</loc>
+  <lastmod>2018-04-04T13:53:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tracertag.com/page/about</loc>
+  <lastmod>2018-04-04T13:53:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tracertag.com/jobs/new</loc>
+  <lastmod>2018-04-04T13:53:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tracertag.com/assistances/new</loc>
+  <lastmod>2018-04-04T13:53:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tracertag.com/pdfs/ficha_tecnica_produto_2017.pdf</loc>
+  <lastmod>2018-02-18T16:51:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tracertag.com/page/references</loc>
+  <lastmod>2018-04-04T13:53:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tracertag.com/events</loc>
+  <lastmod>2018-04-04T13:53:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tracertag.com/flyers</loc>
+  <lastmod>2018-04-04T13:53:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tracertag.com/page/english</loc>
+  <lastmod>2018-04-04T13:53:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tracertag.com/pdfs/CertificadodeHomologacaodaANATEL.pdf</loc>
+  <lastmod>2018-02-18T16:51:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.tracertag.com/pdfs/telit.pdf</loc>
+  <lastmod>2018-02-18T16:51:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tracertag.com/pdfs/voefloripa.pdf</loc>
+  <lastmod>2018-02-18T16:51:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.tracertag.com/pdfs/inpe.pdf</loc>
+  <lastmod>2018-02-18T16:51:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
